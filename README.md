@@ -1,2 +1,0 @@
-# TEBlog
-My Website
