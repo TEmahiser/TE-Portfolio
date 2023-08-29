@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script> let str = prompt("Please enter a string in lowercase");
+                
+
+                function palindromeChecker(str){
+                    str = str.replace(/\s/g,'');
+                    str = str.replace(/\W/g,'');
+                    str = str.replace('_','');
+                    let string = str.toLowerCase();
+                    var splitstring = string.split("");
+                    var reversedString = splitstring.reverse("");
+                    var joinArray = reversedString.join("");
+                    if (joinArray == string) {
+                        alert("This is a palindrome")
+                 }  else
+                     {  alert("This is not a palindrome");
+                }
+                }
+            
+                palindromeChecker(str);
+                </script>
+    </head>
+</html>
